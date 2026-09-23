@@ -1,0 +1,7 @@
+*.obj
+*.0
+*.exe
+*.pdb
+*.ilk
+Thumbs.db
+desktop.ini
