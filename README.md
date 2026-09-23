@@ -1,4 +1,7 @@
-# labs_pstu_EvgeniySavchenko
-test commit еуые
-еуые
+# **labs_pstu_EvgeniySavchenko**
+|номер|название|срок|статус|оценка|
+|:---:|:------:|:--:|:----:|:----:|
+|0    |lab0    |24.09    |готово      |      |
+
+
 
