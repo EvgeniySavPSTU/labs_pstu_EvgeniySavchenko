@@ -1,4 +1,5 @@
 #include <iostream> // Подключаем библиотеку для вывода текста на экран
+#include <iomanip>
 
 using namespace std;
 
@@ -6,8 +7,8 @@ int main() {
     
 
     // Задаем исходные данные по условию задачи (вариант 20)
-    float a = 13.0;
-    float b = 0.000012;
+    float a = 100.0;
+    float b = 0.001;
 
     
 
@@ -24,14 +25,15 @@ int main() {
 
     // Делим числитель на знаменатель
     float otvet_f = chislitel_f / znamenatel_f;
+    cout<< fixed<< setprecision(15);
     cout << "float: " << otvet_f << endl;
 
 
     
 
     // Делаем то же самое, но с типом double для большей точности
-    double a_d = 327.0;
-    double b_d = 75.000234;
+    double a_d = 100.0;
+    double b_d = 0.001;
 
     double chisl_1_d = (a_d - b_d) * (a_d - b_d) * (a_d - b_d) * (a_d - b_d);
     double chisl_2_d = (a_d * a_d * a_d * a_d) - (4 * a_d * a_d * a_d * b_d);
@@ -43,6 +45,7 @@ int main() {
     double znamenatel_d = znam_1_d - znam_2_d - znam_3_d;
 
     double otvet_d = chislitel_d / znamenatel_d;
+    cout << fixed << setprecision(15);
     cout << "double: " << otvet_d << endl;
 
     return 0; // Завершаем программу
